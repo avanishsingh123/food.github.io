@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position:sticky;
+    top: 0px;
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+ background-color: black;
+    z-index: -1;
+    opacity: 0.4;
+    top: 0px;
+    left: 0px;
+}
+#logo{
+    margin: 10px 34px;
+}
+#logo img{
+    height: 50px;
+    width: 50px;
+    margin: 3px 6px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    margin: 4px;
+    list-style: none;
+    font-size: 1.3rem;
+    
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 3px 22px;
+    border-radius: 15px;
+}
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+justify-content: center;
+align-items: center;
+height: 518px;
+
+  
+}
+#home::after{
+    content: "";
+    background: url('image11.jpg') no-repeat center center/cover;
+    position: absolute;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+    opacity: .6;
+    top: 0px;
+    left: 0px;
+}
+.hprimary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+#home h1{
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+#home p{
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.btn{
+   padding: 6px 20px;
+   margin: 17px;
+    width: 200px;
+    height: 42px;
+    font-size: 17px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color:brown;
+    color: white;
+    border: 2px solid white;
+
+}
+.btn:hover{
+    color: black;
+    background-color: antiquewhite;
+    border: 2px solid antiquewhite;
+}
+#services{
+margin: 5px 20px;
+display: flex;
+
+
+}
+#services .box{
+    border: 2px solid brown;
+    margin: 2px 24px;
+    margin-bottom: 20px;
+    padding: 34px;
+    border-radius: 23px;
+    background-color: rgb(212, 189, 189);
+
+}
+#services .box img{
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+#service-container{
+    margin-top: 10px;
+}
+.center{
+    text-align: center;
+    padding: 5px 5px;
+    margin-top: 10px;
+}
+.hsecondry{
+    font-size: 2.3rem;
+    padding: 12px;
+    font-family: 'Crimson Text', serif;
+}
+#services .box p{
+    text-align: center;
+
+}
+#clint-section{
+ 
+   height: 400px;
+
+}
+#clints::before{
+    content: "";
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    background: url('image17.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    z-index: -1;
+    opacity: 0.6;
+
+}
+#clints{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
+    
+}
+#clints img{
+    height: 140px;
+    width: 140px;
+}
+.clint-item{
+    margin: 12px 32px;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(63, 155, 236, 0.744);
+    background-attachment: fixed;
+    z-index: -1;
+    opacity: 0.7;
+    margin-top: 4px;
+}
+#contact{
+    position: relative;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+   
+
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.3rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Crimson Text', serif;
+}
